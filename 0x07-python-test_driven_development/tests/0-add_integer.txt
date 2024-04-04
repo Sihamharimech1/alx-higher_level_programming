@@ -1,0 +1,6 @@
+add_integer(10, 20) # Expected: 30
+add_integer(10.5, 20.1) # Expected: 30 (10 + 20)
+add_integer(2) # Expected: 100 (2 + 98)
+add_integer(0, 0) # Expected: 0
+add_integer(-1, -99) # Expected: -100
+add_integer(123456789, 987654321) # Expected: 1111111110
